@@ -1,0 +1,42 @@
+10
+
+dir
+48
+https://gingersonline.sk/svn_com_gingerslms/js/tiny_mce/plugins/noneditable
+https://gingersonline.sk/svn_com_gingerslms
+
+
+
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+
+
+svn:special svn:externals svn:needs-lock
+
+editor_plugin.js
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+3f456605e83505bb0571144cc5f14b59
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+editor_plugin_src.js
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+6ecdc7bf292835bead510d9d031eed83
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+

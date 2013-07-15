@@ -1,0 +1,21 @@
+
+
+
+#container {
+
+	padding: 0px;
+	overflow: auto;
+	position: relative;
+}
+
+
+#container ul li.selected {border-color: #f90;}
+#container ul div.selected {border-color: #f90; border-width:1px; border-style:solid; }
+#container ul li img {width: 100%;}
+#container p {float: left;margin-right: 5px;}
+
+
+
+
+
+

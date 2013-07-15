@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog
+END
+dialog_option_closeOnEscape_false.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog_option_closeOnEscape_false.html
+END
+dialog.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog.html
+END
+dialog_option_closeOnEscape_true.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog_option_closeOnEscape_true.html
+END
+dialog_option_modal_true.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog_option_modal_true.html
+END
+default.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/default.html
+END
+dialog_on_page_with_scrollbars.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog_on_page_with_scrollbars.html
+END
+dialog_option_modal_false.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog_option_modal_false.html
+END
+dialog_on_page_with_large_dom.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/visual/dialog/dialog_on_page_with_large_dom.html
+END

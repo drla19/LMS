@@ -1,0 +1,40 @@
+2009-11-19 23:13:58 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: tinybrowser.php	Line: 234	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 149	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 184	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 191	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 200	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 224	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_FOLDERNAME - assumed 'TB_FOLDERNAME'	File: folders.php	Line: 230	
+2009-11-19 23:14:02 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 268	
+2009-11-19 23:17:38 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: tinybrowser.php	Line: 234	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 149	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 184	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 191	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 200	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 224	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_FOLDERNAME - assumed 'TB_FOLDERNAME'	File: folders.php	Line: 230	
+2009-11-19 23:17:46 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: folders.php	Line: 268	
+2009-11-19 23:17:50 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: edit.php	Line: 387	
+2009-11-19 23:17:50 (CET)	8 Notice	Use of undefined constant TB_MOVE - assumed 'TB_MOVE'	File: edit.php	Line: 418	
+2009-11-19 23:17:53 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: upload.php	Line: 154	
+2009-11-19 23:17:55 (CET)	8 Notice	Use of undefined constant TB_FOLDERS - assumed 'TB_FOLDERS'	File: tinybrowser.php	Line: 234	
+2009-11-19 23:19:39 (CET)	8 Notice	Use of undefined constant TB_MOVE - assumed 'TB_MOVE'	File: edit.php	Line: 418	
+2009-11-19 23:19:42 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 200	
+2009-11-19 23:19:42 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 224	
+2009-11-19 23:20:46 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 200	
+2009-11-19 23:20:46 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 224	
+2009-11-19 23:21:58 (CET)	8 Notice	Use of undefined constant TB_MOVE - assumed 'TB_MOVE'	File: edit.php	Line: 418	
+2009-11-19 23:23:33 (CET)	8 Notice	Use of undefined constant TB_MOVE - assumed 'TB_MOVE'	File: edit.php	Line: 418	
+2009-11-20 08:12:19 (CET)	8 Notice	Use of undefined constant TB_MOVE - assumed 'TB_MOVE'	File: edit.php	Line: 418	
+2009-11-20 08:12:50 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 200	
+2009-11-20 08:12:50 (CET)	8 Notice	Use of undefined constant TB_CREATE - assumed 'TB_CREATE'	File: folders.php	Line: 224	
+2009-11-20 08:16:15 (CET)	8 Notice	Use of undefined constant TB_MOVE - assumed 'TB_MOVE'	File: edit.php	Line: 418	
+2009-11-28 16:01:57 (CET)	2 Warning	rmdir(C:/xampp/htdocs/dcms0.7/media/drla/) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty	File: folders.php	Line: 81	
+2009-11-28 16:03:07 (CET)	2 Warning	imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'C:/xampp/htdocs/dcms0.7/media/_thumbs/_bot10.jpg' for writing: No such file or directory	File: fns_tinybrowser.php	Line: 113	
+2009-12-04 23:46:27 (CET)	8 Notice	Use of undefined constant TB_MSGCREATE - assumed 'TB_MSGCREATE'	File: folders.php	Line: 120	
+2009-12-05 15:59:50 (CET)	8 Notice	Use of undefined constant TB_MSGMOVE - assumed 'TB_MSGMOVE'	File: edit.php	Line: 305	
+2009-12-05 20:46:44 (CET)	8 Notice	Use of undefined constant TB_MSGCREATE - assumed 'TB_MSGCREATE'	File: folders.php	Line: 120	
+2010-08-20 10:39:26 (CEST)	8 Notice	Undefined variable: cim1	File: fns_tinybrowser.php	Line: 159	
+2010-08-20 10:39:26 (CEST)	2 Warning	imagesx(): supplied argument is not a valid Image resource	File: fns_tinybrowser.php	Line: 49	
+2010-08-20 10:39:26 (CEST)	2 Warning	imagesy(): supplied argument is not a valid Image resource	File: fns_tinybrowser.php	Line: 50	
+2010-08-20 10:39:26 (CEST)	2 Warning	imagedestroy(): supplied argument is not a valid Image resource	File: upload_process.php	Line: 74	

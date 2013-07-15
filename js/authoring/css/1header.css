@@ -1,0 +1,363 @@
+/*:::::HEADER ELEMENTS:::::*/
+#header {
+  margin:0;
+  padding:0;
+}
+#header P{
+  margin:0;
+  padding:0;
+}
+#logo{
+  float:left;
+}
+#logo .edge-left{
+  background: #FFFFFF url(../images/logo_left.png) no-repeat left top;/* #1C377C */
+}
+#logo .edge-right{
+  background: url(../images/logo_right.png) no-repeat right top;
+}
+#logo P{
+  background: url(../images/logo.png) no-repeat center center;
+  width:227px;
+  height:49px;
+}
+#logo H1{
+  display:none;
+}
+#date{
+  float:left;
+  margin: 0 6px;
+}
+#date .edge-left{
+  background: #c6c6c6 url(../images/date_left.png) no-repeat left top;
+}
+#date .edge-right{
+  background: url(../images/date_right.png) no-repeat right top;
+}
+#date P{
+  background:  url(../images/clock.png) no-repeat 22px center;
+  width:597px;
+  height:49px;
+}
+#date SPAN{
+  display:block;
+  padding:12px 5px 5px 60px;
+}
+#user{
+  float:left;
+}
+#user P{
+  width:185px;
+  height:49px;
+  color:white;
+}
+#user SPAN{
+  display:block;
+  padding:12px 5px 5px 60px;
+}
+.lector .bg-image{
+  background: #d37170  url(../images/user_bg.png) repeat-y;
+}
+.lector .edge-left{
+  background: url(../images/user_left.png) no-repeat left top;
+}
+.lector .edge-right{
+  background: url(../images/user_right.png) no-repeat right top;
+}
+.lector P{
+  background:  url(../images/user.png) no-repeat 11px center;
+}
+.student .bg-image{
+  background: #d37170  url(../images/student_bg.png) repeat-y;
+}
+.student .edge-left{
+  background: url(../images/student_left.png) no-repeat left top;
+}
+.student .edge-right{
+  background: url(../images/student_right.png) no-repeat right top;
+}
+.student P{
+  background:  url(../images/student.png) no-repeat 11px center;
+}
+#bar{
+  clear:both;
+  width:100%;
+  height:15px;
+  background-color:#7c8389;
+  border-top: #343c3e 2px solid;
+  border-bottom: #343c3e 2px solid;
+}
+#menu, .menu{
+  background: white url(../images/menu_bg.jpg) repeat-x top;
+  height:46px;
+  width:100%;
+}
+.menu {
+  background: white url(../images/menu_bg_second.jpg) repeat-x top;
+}
+#menu UL, .menu UL{
+  margin:0;
+  padding:0;
+}
+#menu UL LI, .menu UL LI{
+  display:block;
+  margin:0 2px;
+}
+#menu UL LI .active, .menu UL LI .active{
+  background:url(../images/menu_button_bg.png) repeat-x center bottom;
+}
+#menu UL LI .mb-left, .menu UL LI .mb-left{
+  background:url(../images/menu_button_left.png) no-repeat left bottom;
+}
+#menu UL LI .mb-right, .menu UL LI .mb-right{
+  background:url(../images/menu_button_right.png) no-repeat right bottom;
+}
+#menu UL LI.menu-left, .menu UL LI.menu-left{
+  float:left;
+}
+#menu UL LI.menu-right, .menu UL LI.menu-right{
+  float:right;
+}
+#menu A, .menu A{
+	position:relative;
+	left:0;
+	top:0;
+  display:block;
+  color:#7a8388;
+  background:url(../images/menu_napoveda.gif) no-repeat center 7px;
+
+
+/*  display:block;
+  padding: 30px 8px 0 8px;
+  color:#7a8388;
+  background:url(../images/menu_napoveda.gif) no-repeat center 7px;*/
+}
+
+#menu A SPAN, .menu A SPAN{
+	display:block;
+	padding: 30px 12px 0 12px;
+}
+
+#menu .active A, .menu .active A{
+  color:black;
+}
+#menu .domov, .menu .domov{
+  background-image:url(../images/menu_domov.gif);
+}
+
+#menu .obsah, .menu .obsah{
+  background-image:url(../images/menu_content.png);
+}
+
+#menu .testy, .menu .testy{
+  background-image:url(../images/testy.gif);
+}
+
+#menu .kurzy, .menu .kurzy{
+  background-image:url(../images/menu_kurzy.gif);
+}
+
+#menu .novinky, .menu .novinky{
+  background-image:url(../images/news.gif);
+}
+
+#menu .studenti, .menu .studenti{
+  background-image:url(../images/users.gif);
+}
+
+#menu .databaza, .menu .databaza{
+  background-image:url(../images/ciselniky.gif);
+}
+
+#menu .dashboard, .menu .dashboard{
+  background-image:url(../images/menu_dashboard.gif);
+}
+#menu .hladat, .menu .hladat{
+  background-image:url(../images/menu_hladat.gif);
+}
+#menu .tlacit, .menu .tlacit{
+  background-image:url(../images/menu_tlacit.gif);
+}
+#menu .napoveda, .menu .napoveda{
+  background-image:url(../images/menu_napoveda.gif);
+}
+#menu .nastavenia, .menu .nastavenia{
+  background-image:url(../images/menu_nastavenia.gif);
+}
+#menu .vysledky, .menu .vysledky{
+  background-image:url(../images/menu_vysledky.gif);
+}
+
+#menu .skolenia, .menu .skolenia{
+  background-image:url(../images/menu_skolenia.gif);
+}
+
+#menu .dotazniky, .menu .dotazniky {
+  background-image:url(../images/menu_dotazniky.gif);
+}
+
+#menu .rychlaposta, .menu .rychlaposta {
+  background-image:url(../images/menu_rychlaposta.gif);
+}
+
+#menu .statistika, .menu .statistika {
+  background-image:url(../images/statistika.png);
+}
+
+
+#menu .logout, .menu .logout{
+  background-image:url(../images/logout.gif);
+}
+
+#menu .import, .menu .import {
+    background-image: url(../images/import.png);
+} 
+
+#menu .kniznica, .menu .kniznica {
+    background-image: url(../images/menu_kniznica.png);
+} 
+
+#menu .studijny-plan, .menu .studijny-plan {
+    background-image: url(../images/menu_plan.png);
+} 
+
+#menu .slovnik, .menu .slovnik {
+    background-image: url(../images/menu_slovnik.png);
+} 
+
+#menu .help, .menu .help {
+    background-image: url(../images/menu_help.png);
+} 
+
+/*:::: /HEADER ELEMENTS :::::*/
+
+
+
+/* zalozky */
+.zalozky{
+/*	background: white url(../images/zalozky-bg.png) repeat-x top;*/
+/*	height:32px;*/
+	width:100%;
+}
+
+.zalozky UL{
+  margin:0;
+  padding:0;
+}
+
+.zalozky UL LI{
+  display:block;
+  margin:0 0px;
+}
+
+.zalozky UL LI .on{
+  background:url(../images/zal-on-bg.gif) repeat-x center bottom;
+}
+
+.zalozky UL LI .off{
+  background:url(../images/zal-off-bg.gif) repeat-x center bottom;
+}
+
+
+.zalozky UL LI .on .l{
+  background:url(../images/zal-on-left.png) no-repeat left bottom;
+}
+
+.zalozky UL LI .on .r{
+  background:url(../images/zal-on-right.png) no-repeat right bottom;
+}
+
+.zalozky UL LI .off .l{
+  background:url(../images/zal-off-left.png) no-repeat left bottom;
+}
+
+.zalozky UL LI .off .r{
+  background:url(../images/zal-off-right.png) no-repeat right bottom;
+}
+
+
+.zalozky UL LI.left{
+  float:left;
+}
+
+.zalozky UL LI.right{
+  float:right;
+}
+
+
+.zalozky A{
+  display:block;
+  padding: 7px 8px 2px 8px;
+  color:#363B3E;
+}
+
+.zalozky-bottom {
+/*	background: white url(../images/zalozky-bg.png) repeat-x top;*/
+	background-color: #BDF9A3;
+	height:7px;
+	width:100%;
+}
+
+.zalozky .active A{
+  color:black;
+}
+
+
+
+/*  */
+
+#date-stress{
+  float:left;
+  margin: 0 6px;
+}
+#date-stress P{
+  background:  url(../images/clock-stress.png) no-repeat 11px center;
+  width:297px;
+  height:49px;
+}
+#date-stress SPAN{
+  display:block;
+  padding:12px 5px 5px 60px;
+}
+#date-stress .bg-image{
+  background: #d37170  url(../images/user_bg.png) repeat-y;
+}
+#date-stress .edge-left{
+  background: url(../images/user_left.png) no-repeat left top;
+}
+#date-stress .edge-right{
+  background: url(../images/user_right.png) no-repeat right top;
+}
+
+#menu-auth {
+  background: white url(../images/menu_bg.png) repeat-x top;
+  height:37px;
+  width:100%;
+}
+
+#menu-auth a {
+    text-decoration: none;
+}
+
+#menu-auth a img {
+    margin-top: 3px;
+    margin-left: 1px;
+    
+}
+
+#menu-auth-left {
+    float: left;
+    width: 230px;
+    height: 37px;
+}
+
+#menu-auth-right {
+    float: left;
+}
+
+.auth-header {
+    background: #d4e8fb url(/images/top_auth.png) no-repeat;
+    width: 100%;
+    height: 54px;
+    font-size: 12px;
+}

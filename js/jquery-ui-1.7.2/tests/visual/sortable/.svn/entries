@@ -1,0 +1,81 @@
+10
+
+dir
+48
+https://gingersonline.sk/svn_com_gingerslms/js/jquery-ui-1.7.2/tests/visual/sortable
+https://gingersonline.sk/svn_com_gingerslms
+
+
+
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+
+
+svn:special svn:externals svn:needs-lock
+
+default.html
+file
+
+
+
+
+2009-12-08T21:36:00.000000Z
+f35a17d14d731e84d5d70c8a1bfd0933
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+sortable.html
+file
+
+
+
+
+2009-12-08T21:36:00.000000Z
+a09fd797c91a9688305bad3999f849b8
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+sortable_massive_scale.html
+file
+
+
+
+
+2009-12-08T21:36:00.000000Z
+7e2a28d9519ee4210f8539e6ea4a1afe
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+sortable_option_revert_false.html
+file
+
+
+
+
+2009-12-08T21:36:00.000000Z
+94dfcffbaca12c670449aa75f3599cc2
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+sortable_option_revert_true.html
+file
+
+
+
+
+2009-12-08T21:36:00.000000Z
+949aa2c25d693aa5313ad34550dd36d3
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+

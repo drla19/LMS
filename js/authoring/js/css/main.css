@@ -1,0 +1,760 @@
+@import "menuline.css";
+@import "authoring.css";
+@import "news.css";
+
+body {
+	background: white url("/images/header_bg.jpg") repeat-x;
+	width: 900px;
+	height: 768px;
+	margin: auto;
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+img {
+	border-style: none;
+}
+
+#header {
+  height: 221px;
+  background-image: url("/images/header_bg.jpg");
+  background-color: #ffffff;
+}
+
+#header-left {
+	float: left;
+}
+
+#header-logo {
+	padding: 20px 20px 7px 88px;
+	float: left;
+	width: 257px;
+	height: 54px;
+}
+
+#header-info {
+	float: left;
+	height: 54px;
+	width: 326px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+span.header-label {
+	font-size: 8pt;
+	color: blue;
+}
+
+span.header-lang {
+	padding-left: 30px;
+}
+
+span.header-count {
+	color: #c80201;
+	font-weight: bold;
+}
+
+span.header-datum {
+	color: #747570;
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+#header-banner {
+	clear: both;	
+}
+
+#header-lang {
+	padding-top: 10px;
+	padding-right: 5px;
+	height: 50px;
+}
+
+#header-right {
+	float: left;
+}
+
+#footer {
+  clear: both;	
+  height: 30px;
+  background-color: #c0c0c0;
+}
+
+#menu_left {
+  width: 126px;
+  float: left;
+}
+
+#header-user {
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+#header-user-outline-top {
+	background-image: url("/images/header_user_outline_top.png");
+	width: 199px;
+	height: 13px;
+}
+
+div.header-user-login {
+	border-left: 1px solid #c6d4fb;
+	border-right: 1px solid #c6d4fb;
+	width: 197px;
+}
+
+#header-user-commands {
+	text-align: right;
+	width: 189px;
+	padding-right: 10px;
+	font-weight: bold;
+	color: #035dcd;
+}
+
+#header-user-commands  a {
+	text-decoration: none;
+	color: #035dcd;
+}
+
+#header-user-outline-bottom {
+	background-image: url("/images/header_user_outline_bottom.png");
+	width: 199px;
+	height: 9px;
+}
+
+#database_content {
+  float: left;
+  width: 774px;
+  height: 688px;
+  overflow: auto;
+  background-color: #d0d0f0;
+  font-size: 11px;
+} 
+
+tr.striped {
+  background-color: #e0d0f0;
+}
+
+#login-table {
+	width: 197px;
+	table-layout: fixed;
+}
+
+div.login-riadok {
+	padding: 3px;
+}
+
+div.login-riadok div {
+	width: 63px;
+	float: left;
+	padding-top: 4px;
+	color: #e14105;
+}
+
+div.login-riadok input {
+	width: 120px;
+}
+
+div.login-riadok-tlacitko {
+	text-align: right;
+}
+
+#login-button {
+	background: white url('/images/header_login_button.png'); 
+	width: 35px; 
+	height: 19px; 
+	border-style: none;
+	cursor: pointer;
+}
+
+.header-emphasis {
+	font-weight: bold;
+}
+
+#header-logout {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#logout-button {
+	background: white url('/images/button_70x19.png'); 
+	width: 70px; 
+	height: 19px; 
+	border-style: none;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 9pt;
+	vertical-align: middle;
+}
+
+div.clear {
+	clear: both;
+}
+
+#content {
+	width: 701px;
+	min-height: 688px;
+	background-color: white;
+	float: left;
+	margin-top: 6px;
+	height: auto;
+}
+
+#advertisement {
+	float: left;
+	width: 199px;
+	height: 688px;
+	margin-top: 6px;
+	background: white url('/images/reklama.png');
+}
+
+div.frame-violet-lt {
+	background: white url('/images/frame_violet_lt.png') no-repeat;
+	float: left;
+	width: 10px;
+	height: 38px;
+}
+
+div.frame-violet-mt {
+	background: white url('/images/frame_violet_mt.png') repeat-x;
+	float: left;
+	width: 655px;
+	height: 28px;
+	font-weight: bold;
+	font-size: 11pt;
+	color: white;
+	padding: 10px 0 0 15px;
+} 
+
+div.frame-violet-rt {
+	background: white url('/images/frame_violet_rt.png') no-repeat;
+	float: left;
+	width: 10px;
+	height: 38px;
+}
+
+div.frame-violet-content {
+	border-left: #aa54ff solid 1px;
+	border-right: #aa54ff solid 1px;
+	width: 688px;
+	min-height: 400px;
+	height: auto;
+}
+
+div.frame-violet-lb {
+	background: white url('/images/frame_violet_lb.png');
+	float: left;
+	width: 10px;
+	height: 10px;
+}
+
+div.frame-violet-mb {
+	border-bottom: #aa54ff solid 1px;
+	float: left;
+	height: 10px;
+	width: 670px;
+}
+
+div.frame-violet-rb {
+	background: white url('/images/frame_violet_rb.png');
+	float: left;
+	width: 10px;
+	height: 10px;
+}
+
+#authoring-menu {
+	float: left;
+	padding: 5px;
+	width: 200px;
+	background-color: #f0f0f0;
+}
+
+#authoring-content {
+	float: left;
+	padding: 5px;
+	border:2px solid yellow;
+}
+
+#dialog-newlection input.text,select.text {
+	margin-bottom:12px; width:95%; padding: .4em;
+}
+
+.table-container {
+	padding: 10px;
+}
+
+.table-container table {
+	border: 0px;
+	
+}
+
+.table-container td {
+	padding: 0;
+}
+
+.table-container tr {
+	margin-bottom: 5px;
+}
+
+td.rounded-left {
+	width: 12px;
+	height: 32px;
+	background-image: url('/images/input_l.png');
+	background-repeat: no-repeat;	
+}
+
+td.rounded-middle {
+	height: 32px;
+	background-image: url('/images/input_m.png');
+	padding-left: 5px;
+	background-repeat: repeat-x;
+	width:560px;
+}
+
+
+td.rounded-middle-edit {
+	height: 32px;
+	background-image: url('/images/input_m.png');
+	padding-left: 5px;
+	background-repeat: repeat-x;
+	width:20px;
+}
+
+td.rounded-middle-delete {
+	height: 32px;
+	background-image: url('/images/input_m.png');
+	padding-left: 5px;
+	background-repeat: repeat-x;
+	width:20px;
+}
+
+
+td.rounded-right {
+	width: 12px;
+	height: 32px;
+	background-image: url('/images/input_r.png');
+	background-repeat: no-repeat;	
+}
+
+/* root element for tabs  */
+ul.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;
+	height:30px;
+	/*border-bottom:1px solid #666;*/	
+}
+
+/* single tab */
+ul.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	background: url("/images/tabs.png") no-repeat -652px 0;
+	font-size:11px;
+	display:block;
+	height: 30px;  
+	line-height:30px;
+	width: 111px;
+	text-align:center;	
+	text-decoration:none;
+	color:#000;
+	padding:0px;
+	margin:0px;	
+	position:relative;
+	top:1px;
+	
+}
+
+ul.tabs a:active {
+	outline:none;		
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+	background-position: -652px -31px;	
+	color:#000;	
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background-position: -652px -62px;		
+	cursor:default !important; 
+	color:#000 !important;
+}
+
+
+
+
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+ul.tabs a.w1 			{ background-position: -553px 0; width:81px; }
+ul.tabs a.w1:hover 	{ background-position: -553px -31px; }
+ul.tabs a.w1.current { background-position: -553px -62px; }
+
+/* width 2 */
+ul.tabs a.w2 			{ background-position: -420px -0px; width:134px; }
+ul.tabs a.w2:hover 	{ background-position: -420px -31px; }
+ul.tabs a.w2.current { background-position: -420px -62px; }
+
+
+/* width 3 */
+ul.tabs a.w3 			{ background-position: -247px -0px; width:174px; }
+ul.tabs a.w3:hover 	{ background-position: -247px -31px; }
+ul.tabs a.w3.current { background-position: -247px -62px; }
+
+/* width 4 */
+ul.tabs a.w4 			{ background-position: -0px -0px; width:248px; }
+ul.tabs a.w4:hover 	{ background-position: -0px -31px; }
+ul.tabs a.w4.current { background-position: -0px -62px; }
+
+/* width 4 */
+ul.tabs a.w5 			{ background-position: -0px -0px; width:248px; }
+ul.tabs a.w5:hover 	{ background-position: -0px -31px; }
+ul.tabs a.w5.current { background-position: -0px -62px; }
+
+
+/* initially all panes are hidden */ 
+div.panes div.pane {
+	display:none;		
+}
+
+div.panes {
+	width: 680px;
+}
+
+a.authoring-menu-root, a.authoring-menu-root:visited {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+#in_left {
+  width:250px;	
+  float:left;	
+}
+
+#in_right {
+  width:600px;	 
+  float:right;
+	
+}
+
+input.question {
+  width:350px;	
+  
+	
+}
+
+
+/* tab pane styling */
+div.panes div {
+	display:none;		
+	padding:15px 10px;
+	border-top:0;
+	font-size:14px;
+	background-color:#fff;
+	width: 550px;
+}
+
+
+.score_button_nick {
+    background: url("/images/score_button_nick.png");
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+}
+
+.score_button_score {
+    background: url("/images/score_button_score.png");
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+}
+
+.score_button_states {
+    background: url("/images/score_button_states.png");
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+}
+
+.score_button_invite_EN {
+    background: url("/images/score_button_invite.png");
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+}
+
+.score_button_invite_SK {
+    background: url("/images/score_button_pozvi.png");
+	color:#FFF;
+	font-size:10px;
+	text-align:center;
+}
+
+.score_chart {
+	font-weight:bold;
+	color:#754413;
+	font-size:13px;
+	
+}
+
+
+#game_mainbanner_EN {
+    background: url("/images/gamemenu_top_en.png");	
+	width: 772px;
+	height: 99px;
+}  
+
+
+#game_mainbanner_SK {
+    background: url("/images/gamemenu_top_sk.png");	
+	width: 760px;
+	height: 99px;
+}
+
+#game_intro_menu {
+	width: 762px;
+	text-align:right;
+	padding-top:15px;
+}
+
+#game_mainbanner_left {
+	
+	height:100px;
+	width:500px;
+	
+}
+
+
+#game_mainbanner_score {
+    
+	width:680px;
+    text-align:right;
+	padding-top: 60px;
+	font-size:20px;
+	font-weight:bold;
+	float:left;
+}
+
+
+#game_mainbanner_lang {
+    width:76px;
+    padding-top:5px;
+    text-align:right;
+    float:left;
+   
+}
+
+
+#game_mainbanner_sound {
+	width:76px;
+    padding-top:15px;
+    text-align:right;
+    float:left;
+}
+
+
+img.itemmenu {
+
+}
+
+
+#itemsmenu {
+
+ 	
+}
+
+#game_mainbanner_score_items {
+	float:right;
+}
+
+#game_mainbanner_score .scoreitem {
+	float:left;
+	
+}
+
+
+
+
+
+input.groups, textarea.groups {
+	width:350px;
+}
+
+
+#gamescore {
+	 /*
+	 margin:0 auto;
+	 text-align:center;
+	 */
+
+	 width:602px;
+	 padding-left:80px;
+	 
+}
+
+table#gs {
+	margin-left:65px;
+
+}
+
+a#button2, a#button3, a#button4 {
+	float:left;
+}
+
+div#button2_image {
+ width:23px;
+ height:22px;
+ background-image: url("../editor/images/image.png");
+ text-align:left;
+}
+
+
+div#button3_image {
+ width:23px;
+ height:22px;
+ background-image: url("../editor/images/flash.png");
+ text-align:left;
+}
+
+
+#buttons3 {
+ float:left;
+}
+
+#buttons {
+ float:left;
+}
+
+#buttons2 {
+ float:left;
+}
+
+select#size_select {
+ width:55px;
+
+}
+
+
+
+
+
+
+#main_discussion {
+   width: 545px;	
+	
+}
+
+#discussion_items {
+   width:540px;		
+}
+
+
+/* discussion */
+.discussion_item {
+ border:1px solid #cdcdd1;
+ background-image: url("/images/discussion_back.png");
+ background-repeat: repeat-x;
+ background-position: top;
+ margin-top:10px;	
+ /*width:540px;*/ 
+ margin-left:20px;
+ 
+ /*width: 100%; */
+ padding:5px;
+}
+
+.dis_author {
+  font-weight:bold;	
+}
+
+
+.discussion_author {
+  float:left;	
+} 
+
+.discussion_react {
+  float:right;	
+	
+}
+
+.discussion_text {
+  border-top:1px solid #888888;
+  margin-top:5px;	
+}
+
+.discussion_reaction_table {
+  border-top:1px solid #888888;
+  background-image: url("/images/discussion_back.png");
+  background-repeat: repeat-x;
+  background-position: top;
+  margin-top:10px;	
+}
+
+
+.discussion_input {
+  /*width: 485px;*/
+  font-family: arial;
+  font-size: 12px;
+  width:100%;	
+}
+
+.discussion_textarea {
+  /*width: 485px;*/
+  font-family: arial;
+  font-size: 12px;	
+  height:100px;
+  width:100%;
+}
+
+
+#menuline-middle2 a {
+   color:#000;
+   border:1px solid #000;
+}
+
+
+
+#game_intro_menu {
+   background-color:#FFF;
+}
+	
+#game_intro_menu a img{
+   border:0;
+}	
+
+
+
+
+
+.authoring_box_text {
+    
+    border:1px solid red;
+}
+
+
+
+
+#authoring_additional_menu_header_right {
+    
+    border:2px solid red;
+}
+
+
+#authoring_additional_menu {
+    
+    border:2px solid red;
+}

@@ -1,0 +1,42 @@
+10
+
+dir
+48
+https://gingersonline.sk/svn_com_gingerslms/js/tiny_mce/plugins/media/js
+https://gingersonline.sk/svn_com_gingerslms
+
+
+
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+
+
+svn:special svn:externals svn:needs-lock
+
+embed.js
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+39ebc57f44e1cc683724e1c1ff761894
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+media.js
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+5fac3b4e732edda25a2810884f607bdf
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+

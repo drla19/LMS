@@ -1,0 +1,13 @@
+div #login {
+	border-style: solid;
+	border-width: 1px;
+}
+
+span.login_label {
+	text-align: right;
+	width: 100px;
+}
+
+span.login_edit {
+	width: 100px;
+}

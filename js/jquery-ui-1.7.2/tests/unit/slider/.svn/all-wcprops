@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider
+END
+slider_events.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider_events.js
+END
+slider_methods.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider_methods.js
+END
+slider_defaults.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider_defaults.js
+END
+slider_options.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider_options.js
+END
+slider.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider.html
+END
+slider_core.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider_core.js
+END
+slider_tickets.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn_com_gingerslms/!svn/ver/35/js/jquery-ui-1.7.2/tests/unit/slider/slider_tickets.js
+END

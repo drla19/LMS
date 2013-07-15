@@ -1,0 +1,64 @@
+10
+
+dir
+48
+https://gingersonline.sk/svn_com_gingerslms/js/tiny_mce/plugins/advlink
+https://gingersonline.sk/svn_com_gingerslms
+
+
+
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+
+
+svn:special svn:externals svn:needs-lock
+
+css
+dir
+
+editor_plugin.js
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+5e440c6bcb7fd94e7fd597f8a183e16f
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+editor_plugin_src.js
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+4104cd66aea546becf5d8fca66cf7951
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+
+js
+dir
+
+langs
+dir
+
+link.htm
+file
+
+
+
+
+2010-08-19T13:51:36.000000Z
+acf75c39574ed15cc72166a78f430358
+2011-10-20T14:16:02.701449Z
+35
+svn_machovic
+has-props
+

@@ -1,0 +1,106 @@
+div.lection-scrollable {
+    position:relative; 
+    overflow:hidden; 
+    width: 678px; 
+    height:26px; 
+
+	padding:3px 0;
+	border:1px outset #ccc;
+	background-color:#efefef;
+}
+
+div.lection-scrollable div.lection-items {
+    width:20000em; 
+    position:absolute; 
+	clear:both;
+	margin-left:3px;
+}
+
+div.lection-scrollable div.lection-items div { 
+    float:left; 
+	text-align:center;
+	width:20px;
+	padding:3px 0px;
+	font-size:10px;
+	font-family: 'bitstream vera sans';
+	border:1px outset #ccc;
+	background-color: #ddd;
+	margin-right: 3px;
+	-moz-border-radius:3px;
+} 
+
+div.lection-scrollable div.lection-items div.active { 
+    border:1px inset #ccc; 
+    background-color:#fff; 
+}
+
+div.authoring-infobar {
+	height: 25px;
+	padding-top: 5px;
+}
+
+div#authoring-lection-name {
+	float: left;
+	border: 1px solid black;
+	padding: 2px;
+	width: 149px;
+}
+
+div#authoring-lection-state-text {
+	float: left;
+	border: 1px solid black;
+	padding: 2px;
+	width:  96px;
+}
+
+div.authoring-static-text {
+	float:  left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+span.authoring-static-text {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.a-img-menu img {
+	display: block;
+	float: left;
+}
+
+div#authoring-toolbar {
+	background-color: grey;
+	width: 678px;
+	height: 30px; 
+	
+	
+	
+}
+
+div#authoring-edit-area {
+	width:  678px;
+	height: 700px;
+	
+
+	
+}
+
+div.authoring-panes div.authoring-pane {
+	display:none;
+		
+}
+
+div.authoring-panes {
+	width: 680px;
+}
+
+div#authoring-lection-content {
+	float: left;
+}
+
+
+#authoring_additional_menu {
+    
+    border:2px solid red;
+}

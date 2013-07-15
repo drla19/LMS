@@ -1,0 +1,110 @@
+#menuline {
+	height: 43px;
+	font-weight: bold;
+	font-size: 11pt;
+	color: white;
+}
+
+#menuline a {
+	color: white;
+	text-decoration: none;
+}
+
+#menuline-left {
+	background: white url('/images/menu_bg_left.png') no-repeat;
+	height: 37px;
+	width: 15px;
+	float: left;
+}
+
+#menuline-middle {
+	background: white url('/images/menu_bg_middle.png') repeat-x;
+	height: 37px;
+	width: 870px;
+	float: left;
+}
+
+#menuline-right {
+	background: white url('/images/menu_bg_right.png') no-repeat;
+	height: 37px;
+	width: 15px;
+	float: left;
+}
+
+#menuline-bottom {
+	margin-top: 1px;
+	height: 5px;
+	background-color: #c6d6f8;
+}
+
+#menuline div.menuitem {
+	float: left;
+	height: 27px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#menuline a:hover div.menuitem {
+	background: white url('/images/menu_bg_selected.png');	
+}
+
+/*
+
+#menuline div.separator {
+	float: left;
+	width: 2px;
+	height: 37px;
+	background-image: url('/images/menu_separator.png');
+}
+
+*/
+
+
+
+#menuline-left2 {
+	background: white;
+	height: 27px;
+	width: 1px;
+	float: left;
+}
+
+#menuline-middle2 {
+	background: white;
+	height: 27px;
+	width: 870px;
+	float: left;
+}
+
+#menuline-right2 {
+	background: white;
+	height: 27px;
+	width: 1px;
+	float: left;
+}
+
+#menuline-bottom2 {
+	margin-top: 1px;
+	height: 1px;
+	background-color: white;
+}
+
+#menuline div.menuitem2 {
+	float: left;
+	height: 22px;
+	width: 100px;
+	background: white url('/images/btn_lila_no.png');	
+	padding-top: 5px;
+	text-align: center;
+}
+
+#menuline a:hover div.menuitem2 {
+	background: white url('/images/btn_lila_hi.png');	
+}
+
+#menuline div.separator2 {
+	float: left;
+	width: 10px;
+	height: 37px;
+	background-color: white;
+}
