@@ -1,0 +1,334 @@
+@import url("layout.css");
+@import url("jNice.css");
+
+
+
+body {
+	background: url(../images/admin-bg.gif) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #646464;
+	text-align: center;
+}
+
+#wrapper {
+	text-align: left;
+	width: 930px;
+	margin: 0 auto;
+}
+
+/* Logo  ---------------------------------------- */
+
+h1 {
+	margin: 0px 0px 0px 0px;
+	width: 342px;
+	height: 43px;
+	background: url(../images/logo.gif) no-repeat left top;
+	display: block;
+	float: left;
+}
+
+h1 a {
+	display: block;
+	float: left;
+	width: 225px;
+	height: 28px;
+}
+
+h1 span { display: none; }
+
+.logo-login {
+	width: 930px;
+	height: 43px;
+	margin-top: 20px;
+}
+
+.logo {
+	width: 347px;
+	height: 37px;
+	float: left;
+}
+
+.login {
+	width: 583px;
+	height: 28px;
+	float: left;
+	color: #ffffff;
+	text-align: right;
+	padding-top: 15px;
+}
+
+/* HLAVN� NAVIG�CIA ---------------------------------------- */
+
+#mainNav {
+	width: 918px;
+	height: 37px;
+	padding: 6px;
+	margin: 0 0 30px 0;
+	background: url(../images/top-menu-bg.gif) no-repeat left top;
+	list-style: none;
+}
+
+#mainNav li {
+	float: left;
+	height: 37px;
+	border-right: 1px solid #ffffff;
+}
+
+#mainNav li a {
+	display: block;
+	float: left;
+	height: 37px;
+	font-weight: bold;
+	line-height: 37px;
+	text-decoration: none;
+	color: #313131;
+	padding: 0 13px;
+	background: #f0f0f0 url(../images/menu-bg.gif) repeat-x left top;
+}
+
+#mainNav li.logout {
+	float: right;
+	border-left: 1px solid #ffffff;
+	border-right: none;
+}
+
+#mainNav li a:hover {
+	background: #f0f0f0 url(../images/top-menu-hover.gif) repeat-x left top;
+	color: #374601;
+	}
+
+#mainNav li a.active, #mainNav li a.active {
+	background: #f0f0f0 url(../images/top-menu-hover.gif) repeat-x left top;
+	color: #374601;
+}
+
+/* CONTAINER ---------------------------------------- */
+
+#containerHolder {
+	background: #eee;
+	padding: 5px;
+}
+
+
+#container {
+	background: #fff url(../images/content.gif) repeat-y left top;
+	border: 1px solid #ddd;
+	width: 918px;
+}
+
+/* SIDEBAR ---------------------------------------- */
+
+#sidebar {
+	width: 179px;
+	float: left;
+}
+
+#sidebar .sideNav {
+	width: 179px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar .sideNav li {
+	border-bottom: 1px solid #ddd;
+	width: 179px;
+	}
+
+#sidebar .sideNav li a {
+	display: block;
+	color: #193741;
+	background: #f6f6f6;
+	text-decoration: none;
+	height: 29px;
+	line-height: 29px;
+	padding: 0 19px;
+	width: 141px;
+	background: url(../images/left-menu-bg.gif) no-repeat;
+}
+
+#sidebar .sideNav li a:hover {
+	background: url(../images/left-menu-hover.gif) no-repeat;
+	color: #ffffff;
+	}
+
+#sidebar .sideNav li a.active, #sidebar .sideNav li a.active:hover {
+	background: url(../images/left-menu-hover.gif) no-repeat;
+	color: #ffffff;
+}
+
+/* CESTA - Breadcrumb ---------------------------------------- */
+
+h2 {
+	width: 718px;
+	float: right;
+	color: #646464;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+h2 a {
+	color: #646464;
+	text-decoration: none;
+}
+
+h2 a.active { color: #c66653; }
+
+h2 a:hover { text-decoration: underline; }
+
+/* CONTENT ---------------------------------------- */
+
+#main {
+	width: 700px;
+	float: right;
+	padding: 0 19px 0 0;
+}
+
+h3 {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #5494af;
+        border-bottom: 1px solid #5494af;
+}
+
+table.list {
+	border-top: 1px solid #ddd;
+	width: 700px;
+}
+
+table.list tr td {
+	background: #f6f6f6;
+	padding: 0px 20px;
+	height: 29px;
+	line-height: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+table.list tr td a {
+        color: #646464;
+}
+
+table.detail tr td {
+	background: #f6f6f6;
+	padding: 0px 20px;
+	height: 29px;
+	line-height: 20px;
+	border-bottom: none;
+}
+
+table.list tr.odd td {
+	background: #fbfbfb;
+}
+
+table.list tr:hover td { background: #fdfcf6; }
+
+table.list .action {
+	text-align: right;
+	padding: 0 20px 0 10px;
+}
+
+table.list tr .action a { margin: 0 0 0 10px; text-decoration: none; color: #9b9b9b; }
+table.list tr:hover .action .edit { color: #c5a059; }
+table.list tr:hover .action .delete { color: #a02b2b; }
+table.list tr:hover .action .view { color: #55a34a; }
+
+table.list tr:hover .action a:hover { text-decoration: underline; }
+
+#main fieldset {
+	border: 1px solid #ddd;
+	padding: 19px;
+	margin: 0 0 20px 0;
+	background: #fbfbfb;
+}
+
+#main fieldset p { margin: 0 0 14px 0; float: left; width: 100%;  }
+
+#main fieldset label {
+	display: block;
+	width: 100%;
+	margin: 0 0 7px 0;
+	line-height: 12px;
+}
+
+#main fieldset .text-long {
+	border: 1px solid #ddd;
+	background: #fff url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: 264px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#main fieldset .text-medium {
+	border: 1px solid #ddd;
+	background: #fff url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: 124px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#main fieldset .text-small {
+	border: 1px solid #ddd;
+	background: #fff url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: 44px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#main fieldset .text-long:focus, 
+#main fieldset .text-medium:focus,
+#main fieldset .text-small:focus,
+#main fieldset textarea:focus { background: #fdfcf6 url(../images/input-shaddow-hover.gif) no-repeat left top; }
+
+#main fieldset textarea {
+	border: 1px solid #ddd;
+	background: #fff url(../images/input-shaddow.gif) no-repeat left top;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 5px 7px;
+	width: 364px;
+	float: left;
+	margin: 0 10px 0 0;
+	height: 148px;
+	overflow: hidden;
+}
+
+.button-submit {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	width: 94px;
+	height: 29px;
+	cursor: pointer;
+	border: none;
+	background: url(../images/button-submit.gif) no-repeat left top;
+}
+
+/* Footer ---------------------------------------- */
+
+#footer {
+	margin: 10px 0 30px 0;
+	font-size: 11px;
+	line-height: 11px;
+	color: #9B9B9B;
+	padding: 0 0 0 5px;
+}
+
+#footer a { color: #9B9B9B; }
+
+#footer a:hover { text-decoration: none; }
+
+.clear { clear: both; }

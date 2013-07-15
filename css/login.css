@@ -1,0 +1,27 @@
+/* 
+    Document   : login
+    Created on : 13.10.2011, 16:02:55
+    Author     : mbp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.loginbox { 
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0px 0px -200px;
+    background-color: #878787;
+}
+
+.loginbox .block-content {
+    margin: 40px;
+}
+

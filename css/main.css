@@ -1,0 +1,137 @@
+@import "menu.css";
+
+.visible {display:block}
+.invisible {display:none}
+.ajaxloader {margin: 7px}
+.active_zal {display:block}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("/images/web/app_bg.gif");
+    font-family: Arial, Helvetica;
+    font-size: 12px;
+    color: #191919;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+  margin: 0px auto 0px auto;
+  padding: 0px 0px 0px 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.content {
+    width: 748px;
+}
+
+.leftcolumn {
+    float: left;
+    padding: 40px 0px 0px 0px;
+    height: 100%;
+    width: 300px;
+    border-right: 1px solid #BBBBBB;
+    overflow-y: auto;
+}
+
+.lb-white {
+    border-left: 1px solid #FFFFFF;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.white:hover {
+    color: #FFFFFF;
+}
+
+.errors {
+    color: red;
+}
+
+.grey-shadow {
+    text-shadow: 0 1px 1px black;
+}
+
+.light-shadow {
+    text-shadow: 0 2px 2px #FFFFFF;
+}
+
+.rightcolumn {
+    
+}
+
+.courseBox {
+    height: 70px;
+    border-bottom: 1px solid #BBBBBB;
+    border-top: 1px solid #FFFFFF;
+}
+
+.courseBox:hover {
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+.coursePhoto {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #BBBBBB;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+.courseName {
+    height: 50px;
+    margin: 10px 10px 0px 0px;
+    overflow-y: hidden;
+}
+
+.menuTabs {
+    border-bottom: 1px solid #BBBBBB;
+    padding: 7px 0px;
+}
+
+.zalozka {
+    display: none;
+}
+
+.lc-relative {
+    position: relative;
+    /*margin-left: -200px;*/
+    background: url("/images/web/app_bg.gif") repeat scroll 0 0 transparent;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+#editarea {
+    border: 0px;
+    width: 850px;
+    margin-left: -180px;
+}
+
+.grid { margin: 30px 0px 0px 0px }
+.dbfields { padding: 5px; background-color: #FFFFFF; position: absolute; width: 100px; display: none; border: 1px solid #CCCCCC; border-radius: 3px 3px 3px 3px; moz-border-radius: 3px 3px 3px 3px; webkit-border-radius: 3px 3px 3px 3px;}
+
+.clear {
+  clear: both;
+}

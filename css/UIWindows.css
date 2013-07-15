@@ -1,0 +1,28 @@
+/* 
+    Document   : UIWindows
+    Created on : 9.2.2012, 16:32:43
+    Author     : mbp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.UIWindowBase {
+    background-color: #FFFFFF;
+    border: 0px solid #CDCDCD;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 0px 20px #888;
+    -webkit-box-shadow: 0px 0px 20px #888;
+    box-shadow: 0px 0px 20px #888;
+    background-image: url("/images/web/app_bg.gif");
+    z-index: 100001;
+}
+
+.UIWindowToolbar {
+    text-align: right;
+    padding: 5px 20px;
+}
+
+.UIButton {
+    margin: 0px 1px;
+}
+

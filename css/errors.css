@@ -1,0 +1,26 @@
+/* 
+    Document   : errors
+    Created on : 12.11.2009, 22:39:23
+    Author     : drla
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.errorSummary p {
+    font-weight: bold;
+}
+
+.errorSummary ul {
+    padding: 10px 0px 10px 20px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
+.errorSummary ul li {
+    color: red;
+}

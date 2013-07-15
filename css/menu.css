@@ -1,0 +1,36 @@
+.menu ul {
+  margin: 0px 0px 0px 210px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  list-style: none;
+  display: inline;
+}
+
+.menu ul li {
+  float: left;
+}
+
+.menu ul li a {
+  color: #457303;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0px 1px 0px 0px;
+  padding: 13px 0px 0px 0px;
+  width: 172px;
+  height: 31px;
+  display: block;
+  text-align: center;
+  float: left;
+  background: url(../images/web/menu-bg.gif) right no-repeat;
+}
+
+.menu ul li a:hover {
+  color: #545454;
+  background: url(../images/web/menu-bg-hover.gif) right no-repeat;
+}
+
+.menu ul li a.active {
+  color: #545454;
+  background: url(../images/web/menu-bg-hover.gif) right no-repeat;
+}

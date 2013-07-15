@@ -1,0 +1,2 @@
+nav ul li a:hover, nav ul li.active a { padding: 0 6px 0 0; background: transparent url('../gfx/bg_btnnavright.png') no-repeat right 0px; }
+nav ul li a:hover span, nav ul li.active a span { padding: 0 19px 0 27px; line-height: 31px; height: 31px; display: block;  background: transparent url('../gfx/bg_btnnavleft.png') no-repeat left 0px; }

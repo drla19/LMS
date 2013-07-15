@@ -1,0 +1,43 @@
+.Nadpis {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #056ab6;
+}
+.Text {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #404040;
+}
+.Odrazky {font-family: Tahoma; font-size: 14px; color: #404040; font-weight: bold; }
+
+#content_div ul {	
+	list-style: none;
+	list-style-image: none;
+	margin: 10px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#content_div ul li {
+    list-style-image:url("/images/web/li1.png");
+    font-family:tahoma;
+	font-size:14px;
+    font-weight: bold; 
+	margin: 2px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+}
+#content_div ul li ul li {
+    list-style-image:url("/images/web/li2.png");
+    font-family:tahoma;
+	font-size:14px;
+    font-weight: bold; 
+	margin: 2px 0px 0px 25px;
+	padding: 0px 0px 0px 0px;
+}
+#content_div ul li ul li ul li{
+    list-style-image:url("/images/web/li3.png");
+    font-family:tahoma;
+	font-size:14px;
+    font-weight: bold; 
+	margin: 2px 0px 0px 30px;
+	padding: 0px 0px 0px 0px;
+}

@@ -1,0 +1,368 @@
+/* 
+    Document   : admin
+    Created on : 21.9.2009, 14:41:08
+    Author     : tono
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+*
+{
+   font-family: "Arial";
+   font-size: 12px;
+   color: #333333;
+}
+
+.ui-layout-pane
+{ /* all 'panes' */
+    background: #FFF;
+    border: 1px solid #a9abae;
+    padding: 0px;
+    overflow: auto;
+}
+
+.ui-layout-resizer { /* all 'resizer-bars' */
+    background-image: url('../images/cms-pasik.gif');
+}
+
+.ui-layout-toggler { /* all 'toggler-buttons' */
+    background: #4a6c9b;
+}
+
+a.adminButton
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px;
+    background-image: url('../images/button-bg.gif');
+    margin: 5px 0px 0px 0px;
+    position: absolute;
+    border: 1px solid #9cacc0;
+}
+
+a.adminButton:hover
+{
+    text-decoration: underline;
+}
+
+#admintree
+{
+    padding: 10px 0px 0px 0px;
+    height: 100%;
+    position: relative;
+}
+
+#treeloaderbox {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+/*
+#loaderBox
+{
+    z-index: 1000;
+    position: absolute;
+    opacity: 0.5;
+    background-color: #000000;
+    display: none;
+}
+*/
+div.prvy
+{
+    background-color: #ebedf0;
+    border-bottom: 1px solid #a9abae;
+    padding: 5px 10px 5px 10px;
+}
+
+div.druhy
+{
+    background-color: #dbdcdf;
+    border-bottom: 1px solid #a9abae;
+    padding: 5px 10px 5px 10px;
+}
+
+div.prvy a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.druhy a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.prvy a:hover
+{
+    text-decoration: underline;
+}
+
+div.druhy a:hover
+{
+    text-decoration: underline;
+}
+
+div.manageGrid
+{
+    margin: 10px;
+}
+
+div.popUp
+{
+    background-image: url('../images/cms-pasik.gif');
+    padding: 0px;
+    position: relative;
+}
+
+div.popUp H2
+{
+    margin: 0px;
+    padding-top: 3px;
+    background-image: url('../images/w-bg.png');
+    height: 32px;
+}
+
+#gulicka-s
+{
+    
+}
+
+.submitButton
+{
+    padding: 5px;
+    background-image: url('../images/button-bg.gif');
+    border: none;
+    color: #FFFFFF;
+}
+
+.errorSummary ul
+{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 10px 0px 10px 20px;
+}
+
+.errorSummary ul li
+{
+    color: red;
+}
+
+table.perTab th
+{
+    background-image: url('../js/flexigrid/css/flexigrid/images/fhbg.gif');
+    border: 1px solid #DDDDDD;
+}
+
+table.perTab td
+{
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+.error {
+    color: red;
+    font-size: 22px;
+    padding: 40px 10px 40px 10px;
+    font-weight: bold;
+    background-color: #000000;
+}
+
+div.simple div {
+    height: 25px;
+}
+
+input {
+    border: 1px solid #555555;
+    padding: 3px;
+}
+
+.dirDelete {
+    float: right;
+    visibility: hidden;
+}
+
+div.treeDir {
+    padding: 4px;
+    position: relative;
+}
+div.imageObj {
+    float: left;
+    position: relative;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid #AAAAAA;
+    background-color: #EFEFEF;
+}
+
+div.imageLabel {
+    text-align: center;
+    padding: 2px;
+}
+
+div.canvas {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin: 10px;
+    border: 1px solid #AAAAAA;
+    background-color: #FFFFFF;
+}
+
+div.icons {
+    padding: 2px;
+    text-align: center;
+}
+
+div.avalFields {
+    padding: 10px;
+    background-color: #EFEFEF;
+    border: 1px solid #AAAAAA;
+}
+
+#myFields {
+    margin-top: 20px;
+}
+
+#elementShort {
+    width: 200px;
+    padding: 4px;
+    background-repeat: no-repeat;
+    border: 1px solid #898c95;
+    background-color: #ddeff7;
+}
+
+.cmsSubMenu {
+    line-height: 2em;
+    list-style-image: url("/images/heading-arrow.png");
+}
+
+.cmsSubMenu a {
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cmsSubMenu a:hover {
+    color: #0085CF;
+}
+
+div.translationBox {
+    float: left;
+    width: 700px;
+    position: relative;
+}
+
+div.menuBox {
+    float: left;
+    width: 200px;
+    margin: 0px 0px 0px 20px;
+}
+
+div.menuBox h2, div.translationBox h2 {
+    padding: 5px;
+    background-color: #EFEFEF;
+    border-bottom: 1px dotted #AAAAAA;
+}
+
+div.messageRow {
+    height: 30px;
+    padding: 5px;
+    border-bottom: 1px dotted #AAAAAA;
+    position: relative;
+}
+
+.baseMessage {
+    float: left;
+    width: 350px;
+}
+
+.translatedMessage {
+    float: left;
+    width: 250px;
+}
+
+.headerRow {
+    background-color: #4A6C9B;
+}
+
+.headerRow .baseMessage, .headerRow .translatedMessage {
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.messageRow .translatedMessage input[type=text], .baseMessage input[type=text] {
+    width: 240px;
+}
+
+a.minus {
+    background-image: url("/images/web/close.png");
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 16px;
+}
+
+a.plus {
+    background-image: url("/images/web/add.png");
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    width: 16px;
+}
+
+.langadd {
+    text-align: right;
+}
+
+.langadd a {
+    font-size: 10px;
+    font-weight: bold;
+    color: #0085CF;
+}
+
+#gridSearch {
+    background-image: url(../images/web/search.png);
+    height: 35px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #969696;
+    border-top: 1px solid #FFFFFF;
+}
+
+.gridSearchBox {
+    height: 35px;
+    background-image: url(../images/web/search_bg.gif);
+}
+
+#searchInput {
+    border: 0 none;
+    color: #A7A7A7;
+    margin: 8px 0 0 25px;
+    width: 130px;
+}
+
+#equal {
+    margin: 0px 0px 0px 40px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
